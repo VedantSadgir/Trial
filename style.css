@@ -1,0 +1,65 @@
+.background-image {
+  background-image: url(./background_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 50vh;
+  
+}
+
+main {
+  margin-top: 50px; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+
+@media (max-width: 375px) {
+  .background-image {
+      height: 70vh; /* Adjust the height for screens below 375 pixels width */
+  }
+}
+@media (max-width: 320px) {
+  .feature-container {
+      margin-top: 80px; /* Adjust the margin to shift the feature container down */
+      padding-top: 0; /* Or adjust the padding if needed */
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .background-image {
+      height: 80vh; /* Adjust the height for screens between 426px and 768px width (tablets) */
+  }
+}
+
+/* Custom Styles */
+.nav-pills .nav-link {
+  background-color: transparent; /* Remove background color */
+  color: white; /* Set text color to white */
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent; /* Remove background color for the active link */
+}
+
+.text-body-secondary{
+  font-size: 2em;
+}
+h1{
+  font-size: 3em;
+}
+
+
+.list-unstyled{
+  font-size: 1.5em;
+}
+@media (max-width: 767px) {
+  .col-md-7 {
+    color: black; 
+  }
+  
+}
+main{
+  margin-top: 250px;
+
+}
+
